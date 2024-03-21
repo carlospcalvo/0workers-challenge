@@ -1,0 +1,52 @@
+#root {
+	max-width: 1280px;
+	margin: 0 auto;
+	padding: 2rem;
+	text-align: center;
+}
+
+main {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+h1 {
+	font-size: 3.2em;
+	line-height: 1.1;
+	filter: drop-shadow(0px 0px 35px #8909b3);
+}
+
+form {
+	width: fit-content;
+	margin: 2rem 0;
+	border: none;
+
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: flex-start;
+	gap: 0.25rem;
+}
+
+legend {
+	font-size: 1.5rem;
+	line-height: 1;
+	font-weight: 500;
+}
+
+.checkbox-container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 0.25rem;
+}
+
+input[type="checkbox"] {
+	accent-color: #8909b3;
+}
+
+label {
+	font-weight: 500;
+}
